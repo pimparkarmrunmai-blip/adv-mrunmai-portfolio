@@ -158,7 +158,8 @@ footer{border-top:1px solid var(--line);padding:26px 0;text-align:center;color:v
 @media(max-width:980px){.hero,.about{grid-template-columns:1fr}.stack{height:420px}.grid3,.mgrid,.pubs,.stage,.ints{grid-template-columns:1fr 1fr}.why,.mem{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:620px){section{padding:80px 0}.grid3,.mgrid,.pubs,.stage,.ints,.why,.mem{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stats .stat:last-child{grid-column:span 2}.slide{padding:34px 26px}.stack{height:340px}.arr{display:none}.badge{left:0}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.reveal{opacity:1;transform:none}}
-.band{margin:0 0 44px;height:240px;border-radius:20px;overflow:hidden;position:relative;border:1px solid rgba(226,196,130,.22);box-shadow:0 20px 60px rgba(0,0,0,.45),0 0 40px rgba(70,70,80,.25)}.band img{width:100%;height:100%;object-fit:cover;filter:grayscale(.85) contrast(1.08) brightness(.95);transition:filter .8s,transform 1.2s}.band:hover img{filter:none;transform:scale(1.04)}.band:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(11,11,13,.55));pointer-events:none}@media(max-width:700px){.band{height:240px;margin-bottom:30px}}</style><style>
+.band{margin:0 0 44px;height:240px;border-radius:20px;overflow:hidden;position:relative;border:1px solid rgba(226,196,130,.22);box-shadow:0 20px 60px rgba(0,0,0,.45),0 0 40px rgba(70,70,80,.25)}.band img{width:100%;height:100%;object-fit:cover;filter:grayscale(.85) contrast(1.08) brightness(.95);transition:filter .8s,transform 1.2s}.band:hover img{filter:none;transform:scale(1.04)}.band:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(11,11,13,.55));pointer-events:none}@media(max-width:700px){.band{height:240px;margin-bottom:30px}}.band2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 44px}.band2 figure{margin:0;height:360px;border-radius:20px;overflow:hidden;position:relative;border:1px solid rgba(255,255,255,.1);box-shadow:0 20px 60px rgba(0,0,0,.45),0 0 40px rgba(70,70,80,.25);cursor:zoom-in}.band2 img{width:100%;height:100%;object-fit:cover;filter:grayscale(.9) contrast(1.08) brightness(1);transition:filter .8s,transform 1.2s}.band2 figure:hover img{filter:grayscale(.2) contrast(1.05);transform:scale(1.04)}.band2 figure:after{content:"Tap to enlarge";position:absolute;right:12px;bottom:10px;font:500 10.5px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#dcdce0;background:rgba(11,11,13,.6);padding:5px 10px;border-radius:99px;opacity:0;transition:.3s}.band2 figure:hover:after{opacity:1}@media(max-width:700px){.band2{grid-template-columns:1fr;margin-bottom:30px}.band2 figure{height:260px}.band2 figure:after{opacity:1}}
+#lb{position:fixed;inset:0;background:rgba(5,5,7,.92);display:none;align-items:center;justify-content:center;z-index:200;cursor:zoom-out;padding:24px}#lb.on{display:flex}#lb img{max-width:min(94vw,900px);max-height:90vh;border-radius:14px;box-shadow:0 30px 80px #000}</style><style>
 .route{flex:0 1 460px;margin-left:auto}
 .route a.on span.l{white-space:nowrap}
 .route a span.l{white-space:nowrap}
@@ -216,7 +217,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;text-align:center;color:v
 <main id="main"><div class="pg"><div class="wrap"><div class="eyebrow">Resume</div><h1>Experience <em>&amp;</em> credentials</h1>
 <p class="lead">Roles, internships, certifications, moots, teaching and published writing.</p>
 <div class="xstats" id="xst"></div><div class="xchips" id="xf" role="toolbar" aria-label="Filter the page"></div></div></div>
-<section id="experience" style="padding-top:40px"><div class="wrap"><figure class="band"><img src="assets/library.webp" alt="" loading="lazy" style="object-position:30% 36%"></figure>
+<section id="experience" style="padding-top:40px"><div class="wrap"><div class="band2"><figure><img src="assets/library.webp" alt="Lady Justice statue in a law library" loading="lazy" style="object-position:25% 34%"></figure><figure><img src="assets/bookstack.webp" alt="Stack of law books" loading="lazy" style="object-position:50% 20%"></figure></div>
 <div class="eyebrow reveal">Experience</div><h2 class="reveal">The <em>journey</em> so far</h2>
 <div class="tl" id="tl"><div class="fill"></div>
 <div class="ti reveal"><div class="d">Feb 2026 — Present</div><h3>Entertainment Technologists Development Corp.</h3><div class="r">In-House Legal Counsel · EntTech &amp; MediaShippers</div>
@@ -236,7 +237,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;text-align:center;color:v
 <div class="int glass reveal"><b>Baskaran &amp; Associates</b><small>Legal Intern · Oct 2023–Jan 2024 · three IP articles, two published</small></div>
 <div class="int glass reveal"><b>P. Narayan &amp; Associates</b><small>Legal Intern · Jun–Sep 2023</small></div></div>
 </div></section>
-<section id="credentials"><div class="wrap"><figure class="band"><img src="assets/bookstack.webp" alt="" loading="lazy" style="object-position:50% 10%"></figure>
+<section id="credentials"><div class="wrap"><div class="band2"><figure><img src="assets/pillars.webp" alt="High Court building with stone pillars" loading="lazy" style="object-position:50% 22%"></figure><figure><img src="assets/study.webp" alt="Open law book and lamp in a study" loading="lazy" style="object-position:50% 72%"></figure></div>
 <div class="eyebrow reveal">Certifications &amp; memberships</div><h2 class="reveal">Always <em>learning</em></h2>
 <div class="wall reveal">
 <div class="cert"><b>Professional Diploma — IP, Media &amp; Entertainment Laws</b><small>Medhavi Skills University (via LawSikho) · Grade O · May 2026</small></div>
@@ -259,7 +260,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;text-align:center;color:v
 <div class="glass reveal"><b>CIArb</b><small>Student Member · since 2024</small></div>
 <div class="glass reveal"><b>ILS Memo Formatting Team</b><small>Core committee · 2021–2025</small></div></div>
 </div></section>
-<section id="writing"><div class="wrap"><figure class="band"><img src="assets/courtroom.webp" alt="" loading="lazy" style="object-position:50% 45%"></figure>
+<section id="writing"><div class="wrap"><div class="band2"><figure><img src="assets/courtroom.webp" alt="Courtroom" loading="lazy" style="object-position:50% 45%"></figure><figure><img src="assets/stamp.webp" alt="Stamp paper and affidavit" loading="lazy" style="object-position:50% 18%"></figure></div>
 <div class="eyebrow reveal">Publications</div><h2 class="reveal">Published <em>writing</em></h2>
 <div class="pubs">
 <a class="pub glass reveal" href="https://www.whiteblacklegal.co.in/volume-2/volume-2-issue-16" target="_blank" rel="noopener"><span class="j">White Black Legal Int'l Law Journal</span><h3>Digital Copyright Wars: Protecting Knowledge in the Age of Infringement</h3><p>Copyright protection of knowledge in the face of digital infringement.</p><span class="go">Read ↗</span></a>
@@ -328,4 +329,4 @@ cf.addEventListener('click',e=>{const b=e.target.closest('.xchip');if(!b)return;
 $$('.st,.pub,.int,.mem .glass,.ti .box').forEach(e=>e.classList.add('spot'));$$('.ti .box').forEach(e=>e.dataset.nt=1);ixBind();
 })();
 </script>
-</body></html>
+<div id="lb" role="dialog" aria-label="Image viewer"><img alt=""></div><script>(function(){var lb=document.getElementById('lb'),im=lb.querySelector('img');document.querySelectorAll('.band2 figure').forEach(function(f){f.tabIndex=0;f.setAttribute('role','button');f.addEventListener('click',op);f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();op.call(f)}});function op(){var i=f.querySelector('img');im.src=i.src;im.alt=i.alt;lb.classList.add('on')}});lb.addEventListener('click',function(){lb.classList.remove('on')});document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')})})()</script></body></html>
