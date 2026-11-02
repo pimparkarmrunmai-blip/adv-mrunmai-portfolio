@@ -356,7 +356,7 @@ f.addEventListener('mouseenter',stop);f.addEventListener('mouseleave',play);f.ad
 document.addEventListener('visibilitychange',function(){document.hidden?stop():play()});
 play();window.__certGo=go})()</script><script>(function(){var f=document.querySelector('.clipfig');if(!f)return;var sl=[].slice.call(f.querySelectorAll('.cs')),dt=[].slice.call(f.querySelectorAll('.cdots button')),i=0,t;
 function go(n){if(n===i)return;var o=sl[i];o.classList.remove('on');o.classList.add('out');setTimeout(function(){o.classList.remove('out')},650);i=(n+sl.length)%sl.length;sl[i].classList.add('on');dt.forEach(function(d,k){d.classList.toggle('on',k===i)})}
-function play(){clearInterval(t);t=setInterval(function(){go(i+1)},1000)}
+function play(){clearInterval(t);t=setInterval(function(){go(i+1)},3000)}
 function stop(){clearInterval(t)}
 dt.forEach(function(d,k){d.addEventListener('click',function(e){e.stopPropagation();go(k);play()})});
 f.addEventListener('mouseenter',stop);f.addEventListener('mouseleave',play);f.addEventListener('focusin',stop);f.addEventListener('focusout',play);
